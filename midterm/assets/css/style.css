@@ -1,0 +1,167 @@
+.flexbox-container {
+    display: flex;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; */
+    justify-content: start;
+    align-items: center;
+    background-color: #F5E4D2;
+    height: 150px;
+    width: 100%;
+    padding: 0px;
+}
+
+.flexbox-container-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5E4D2;
+    /* position: static;
+    top: 150px;
+    left: 0;
+    right: 0; */
+    height: 400px;
+    width: 100%;
+}
+
+.flexbox-container-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    width: 100%;
+}
+
+.flexbox-container-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexbox-container-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    align-self: start;
+    padding-top: 40px;
+    font-family: 'Marcellus SC';
+    font-size: 20px;
+}
+
+.flexbox-container-6 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.flexbox-item {
+    margin: 40px;
+    flex-shrink: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg);
+}
+
+.navi {
+    color: #7c6355;
+    font-family: 'literata';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navi:hover {
+    color: #2c231e;
+}
+
+.menumenu {
+    color: #2c231e;
+    font-weight: bold;
+}
+
+.flexbox-item-2 {
+    flex-shrink: 10px;
+}
+
+.flexbox-item-6 {
+    padding-left: 5%;
+    font-size: 40px;
+    font-family: 'Marcellus SC';
+    padding-left: 170px;
+    padding-right: 170px;
+    min-width: 20%;
+    line-height: 1.5;
+    align-self: start;
+
+}
+
+.flexbox-item-9 {
+    max-width: 55%;
+    align-self: center;
+    /* padding-top: -20px; */
+    margin-top: 140px;
+    margin-right: 0px;
+}
+
+.coffeepic {
+    max-width: 100%;
+    height: 200px;
+}
+
+#coffee {
+    width: 100%;
+}
+
+.flexbox-item-7 {
+    align-self: start;
+    padding-top: 100px;
+    line-height: 2;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Marcellus', 'san serif';
+    font-size: 20px;
+}
+
+.flexbox-item-8 {
+    align-self: start;
+    padding-top: 100px;
+    min-width: 30%;
+    font-size: 50px;
+    font-family: 'Marcellus SC';
+}
+
+.flexbox-item-10 {
+    font-size: 25px;
+}
+
+.menunav {
+    margin: 20px;
+}
+
+.menunav:hover {
+    color: #ae6e3e;
+}
+
+.menucontainer {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.menuname {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.menudescript {
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+
+
